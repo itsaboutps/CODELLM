@@ -1,0 +1,311 @@
+# Document Assistant RAG - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ChromaDB Database Files
+chroma_db/
+*.sqlite3
+*.db
+*.sqlite
+
+# Vector Database Storage
+vector_store/
+embeddings_cache/
+
+# Model Cache and Downloads
+models/
+.cache/
+huggingface_cache/
+torch_cache/
+transformers_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Logs
+logs/
+*.log
+streamlit.log
+*.out
+*.err
+
+# Test Results and Reports
+*test_results*.json
+*_test_results_*.json
+test_output/
+test_reports/
+coverage_reports/
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Document Processing Cache
+document_cache/
+processed_docs/
+
+# API Keys and Secrets
+*.key
+*.pem
+secrets.json
+.secrets
+config.ini
+.env.*
+
+# Large Files (typically models and data)
+*.bin
+*.safetensors
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+
+# Backup Files
+*.bak
+*.backup
+*.orig
+
+# IDE and Editor Files
+.project
+.pydevproject
+.settings/
+.vscode/settings.json
+.vscode/launch.json
+
+# Operating System Files
+.directory
+.fseventsd/
+.TemporaryItems/
+.Trashes/
+.VolumeIcon.icns
+.AppleDouble
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+Dockerfile.dev
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Development and Debug Files
+debug/
+debug_*
+*_debug.py
+profiling/
+
+# Documentation Build
+docs/_build/
+docs/.doctrees/
+
+# Specific to this project - Test artifacts
+comprehensive_test_results_*.json
+advanced_docx_test_results_*.json
+production_docx_test_results_*.json
+docx_test_results_*.json
+enhanced_docx_test_results_*.json
+test_results_detailed.json
+
+# Specific to this project - Sample documents (keep in repo for testing)
+# Title_*.docx  # Uncomment if you don't want to track sample documents
+
+# Specific to this project - Generated files
+*_tester.py.bak
+requirements_enhanced.txt.bak
+# Local backup folder
+local_backup/
